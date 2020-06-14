@@ -1,0 +1,38 @@
+.nosotros {
+    display: none;
+}
+@media (min-width: 768px){
+    .nosotros {
+        display: block;
+    }
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+}
+
+.nav{
+    width: 50%;
+}
+@media (min-width: 1200px) {
+.nav {
+    width: 25%;
+    }
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.input-menu {
+    border-radius: 30px;
+}
